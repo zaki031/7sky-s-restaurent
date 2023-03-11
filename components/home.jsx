@@ -4,7 +4,7 @@ import Image from "next/image";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 const home = () => {
   return (
-    <div className=" text-white items-center pt-20 p-[50px] justify-between flex">
+    <div className=" text-white h-screen items-center pt-20 lg:p-[50px] justify-between lg:flex">
       <svg
         className="h-full w-full absolute inset-0 z-[0] opacity-5"
         viewBox="0 0 1376 768"
@@ -114,7 +114,7 @@ const home = () => {
           <p className=" uppercase text-blue-100 tracking-widest  relative left-2 text-2xl mb-[-40px] ">
             Arwah
           </p>
-          <h1 className="font-bold uppercase max-w-2xl relative bottom-4 text-7xl z-1 ">
+          <h1 className="font-bold uppercase max-w-xl  relative bottom-4 text-7xl sm:text-3xl z-1 ">
             {" "}
             <br />
             OU DECOUVRI EL <span className="text-[#fcfd0c] text-7xl">
@@ -123,7 +123,7 @@ const home = () => {
             ENDNA!!
           </h1>
         </div>
-        <div className="flex gap-x-12 z-[1] relative">
+        <div className="flex gap-x-12 sm:gap-x-2 z-[1] relative">
           <a
             href="tel:+213541126006"
             className=" bg-white transition-all hover:bg-blue-100 duration-300 ease-out hover:-translate-y-1 shadow-xl shadow-stone-700 text-[#1E1E1E] items-center font-bold w-64 px-8 flex justify-between  h-14 rounded-lg"
@@ -144,8 +144,9 @@ const home = () => {
       </div>
 
       <div className="relative">
-        <div className="border-[#fcfd0c] rotate-3 border-2 w-[600px] h-[400px] absolute z-[0] rounded-xl"></div>
+        <div className="border-[#fcfd0c] rotate-3 hidden sm:block border-2 w-[600px] h-[400px] absolute z-[0] rounded-xl"></div>
         <Image
+        alt="7sky"
           src={img}
           className="rounded-xl object-cover  w-[600px] h-[400px] z-[5] rotate-[-3deg]"
           width={500}

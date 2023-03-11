@@ -4,7 +4,7 @@ const navbar = () => {
   return (
     <div className="navbar text-white flex justify-between px-[50px] py-[30px]">
       <h1 className="font-bold text-2xl">7 Sky's</h1>
-      <div className="links flex gap-[50px]">
+      <div className="links hidden sm:flex gap-[50px]">
         <a href="">Accueil</a>
         <a href="">Menu</a>
         <a href="">Gallery</a>
