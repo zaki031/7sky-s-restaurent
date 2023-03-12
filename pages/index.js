@@ -7,9 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="bg-[#1E1E1E] w-screen">
+    <div className="bg-[#1E1E1E] ">
       <Head>
-        <title>Create Next App</title>
+        <title>7sky's</title>
         
         
         {/* you weren't importing the "bold" weight  and doing it in the wrong place */}

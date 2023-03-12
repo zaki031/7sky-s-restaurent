@@ -2,9 +2,10 @@ import React from "react";
 import img from "../public/home.jpg";
 import Image from "next/image";
 import {BsFillTelephoneForwardFill} from "react-icons/bs"
+import menu from "./menu";
 const home = () => {
   return (
-    <div className=" text-white items-center pt-20 p-[50px] justify-between flex">
+    <div className=" text-white  h-screen items-center pt-20 p-[50px] justify-between flex">
       <svg className="h-full w-full absolute inset-0 z-[0] opacity-5"  viewBox="0 0 1376 768">
       <g mask="url(&quot;#SvgjsMask1013&quot;)" fill="none">
         <path d="M1179.82 551.54L1213.22 551.54L1213.22 569.54L1179.82 569.54z" fill="rgba(245, 215, 41, 1)"></path>
@@ -51,8 +52,8 @@ const home = () => {
               <BsFillTelephoneForwardFill className="text-xl text-stone-600" />Commandez doka!
           </a>
           <a
-            href="tel:+213541126006"
-            className="text-md items-center font-semibold transition-all hover:outline-blue-100 duration-300 ease-out hover:-translate-y-1 flex px-8 text-center text-white outline outline-[#fcfd0c]   rounded-lg"
+            href="#menu"
+            className="text-md cursor-pointer items-center font-semibold transition-all hover:outline-blue-100 duration-300 ease-out hover:-translate-y-1 flex px-8 text-center text-white outline outline-[#fcfd0c]   rounded-lg"
           >
             7sky's menu
           </a>

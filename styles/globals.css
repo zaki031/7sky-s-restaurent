@@ -5,4 +5,9 @@
 @layer base {
   body{
     font-family: 'Montserrat', sans-s
-    erif;  }}
+    erif;  }
+  
+    }
+    html{
+      scroll-behavior: smooth;
+    }
