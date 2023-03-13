@@ -52,7 +52,7 @@ const home = () => {
               <BsFillTelephoneForwardFill className="text-xl text-stone-600" />Commandez doka!
           </a>
           <a
-            href="#menu"
+            href="/menu"
             className="text-md cursor-pointer items-center font-semibold transition-all hover:outline-blue-100 duration-300 ease-out hover:-translate-y-1 flex px-8 text-center text-white outline outline-[#fcfd0c]   rounded-lg"
           >
             7sky's menu
