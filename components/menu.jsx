@@ -28,7 +28,7 @@ const menu = () => {
                             </div>
                             <p className='text-gray-300 my-auto'>sauce tomate - poivron - oignon - tomate - chedar - mozzarilla - olives</p>
                         </div>
-                        <div className="w-[400px]  border-dashed h-[120px] text-white border-2 border-[#fcfd0c] p-4 rounded-xl">
+                        <div className="w-[400px]  border-dashedh-[120px] text-white border-2 border-[#fcfd0c] p-4 rounded-xl">
                             <div className="top justify-between font-bold text-xl flex">
                             <h2 className=''>Pizza Margueritte</h2>
                             <p>350 DA</p>

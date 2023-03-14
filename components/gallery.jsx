@@ -22,29 +22,29 @@ const gallery = () => {
             <div className="gallery">
 
                 <div className="">
-                    <Image className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img1}></Image>
+                    <Image alt='pizza' className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img1}></Image>
                 </div>
                 <div className="w-stretch">
-                    <Image className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img3}></Image>
+                    <Image alt='pizza' className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img3}></Image>
                 </div>
                 <div className="">
-                    <Image className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img4}></Image>
+                    <Image alt='pizza' className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img4}></Image>
                 </div>
                 <div className="h-stretch">
-                    <Image className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img2}></Image>
+                    <Image alt='pizza' className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img2}></Image>
                 </div>
                 <div className="">
-                    <Image className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img6}></Image>
+                    <Image alt='pizza' className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img6}></Image>
                 </div>
                 <div className="w-stretch">
-                    <Image className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img8}></Image>
+                    <Image alt='pizza' className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img8}></Image>
                 </div>
                 <div className="h-stretch">
-                    <Image className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img5}></Image>
+                    <Image alt='pizza' className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img5}></Image>
                 </div>
                 <div className="">
                     
-                    <Image className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img7}></Image>
+                    <Image alt='pizza' className='hover: duration-200 ease-in hover:-translate-y-1 ' src={img7}></Image>
                 </div>
             </div>
         </section>
