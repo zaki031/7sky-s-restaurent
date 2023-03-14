@@ -15,7 +15,7 @@ import img8 from '../public/gallerie/8.png'
 
 const gallery = () => {
   return (
-    <div>
+    <div id='gallery'>
         <section>
             <h1 className='font-bold text-7xl text-[#fcfd0c] text-center'>Gallerie</h1>
             <br /><br /><br />

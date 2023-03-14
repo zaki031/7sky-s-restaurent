@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../public/home.jpg";
-import Image from "next/image";
+import Image from "next/image"; 
+
 import {BsFillTelephoneForwardFill} from "react-icons/bs"
 import menu from "./menu";
 const home = () => {
