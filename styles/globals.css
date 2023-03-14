@@ -33,4 +33,25 @@
       object-fit: cover;
       border-radius: 5px;
     }
+
+
+    ::-webkit-scrollbar {
+      width: 10px;
+      border-radius: 3px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #fcfd0c;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #fcfd0c;
+    }
     
